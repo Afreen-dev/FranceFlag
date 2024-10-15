@@ -1,0 +1,31 @@
+/*
+#0055A4, #FFFFFF, #EF4135; */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.flag {
+  height: 200px;
+  width: 300px;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.first {
+  background: red;
+  flex: 1;
+}
+
+.second {
+  background: #ffffff;
+  flex: 1;
+}
+
+.third {
+  background: #0055a4;
+  flex: 1;
+}
